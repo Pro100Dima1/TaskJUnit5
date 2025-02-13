@@ -7,7 +7,7 @@ public class Calculation {
     static Fragility fragility = new Fragility();
     static WorkLoadService workLoadService = new WorkLoadService();
 
-    public static Float costCalculation(int destination, String demensions, boolean infoAboutFragility, String workloadService) {
+    public  Float costCalculation(int destination, String demensions, boolean infoAboutFragility, String workloadService) {
 
         int a = destination1.destination(destination);
         int b = demension.demension(demensions);
